@@ -1,0 +1,12 @@
+names:
+- smoke
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: smoke100-uwe4t
+  url: https://universe.roboflow.com/smoke-detection/smoke100-uwe4t/dataset/4
+  version: 4
+  workspace: smoke-detection
+test: ../test/images
+train: Smoke100-4/train/images
+val: Smoke100-4/valid/images
